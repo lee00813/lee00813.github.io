@@ -7,12 +7,8 @@
     </head> 
     <body>
         <header>
-            <div class="starfish-image">
-                <div class="hero-text">
-                    <img class="starfish" src=images/lone-starfish-wide.jpg alt="starfishbanner">
-                    <h1>Lone Starfish</h1> 
-                </div>
-            </div>
+            <img src=images/lone-starfish-wide.jpg alt="starfishbanner">
+            <h1>Lone Starfish</h1> 
         </header>   
         <div class="tab">
             <nav>HOME</nav>
@@ -33,26 +29,30 @@
                 <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
             </ul>
         </aside>
-        <section>
+        <form>
             <h3>Contact to learn more</h3>
-            <label for="name">Your Name</label><br>
-            <input type="text" id="name" name="yourname"><br>
-            <label for="email">Your Email</label><br>
-            <input type="text" id="email" name="youremail"><br>
-            <label for="note">Your Message</label><br>
-            <input type="text" id="note" name="yourmessage"><br>
+                <div>
+                    <label for="name">Your Name</label><br>
+                    <input type="text" id="name" name="yourname">
+                </div>
+                <div>
+                    <label for="email">Your Email</label><br>
+                    <input type="text" id="email" name="youremail">
+                </div>
+                <div>
+                    <label for="note">Your Message</label><br>
+                    <input type="text" id="note" name="yourmessage">
+                </div>
 
             <p>Would you like to visit the starfish?</p>
-            <form>
                 <input type="radio" id="yes" name="visit" value="Yes">
                 <label for="yes">Yes</label>
                 <input type="radio" id="no" name="visit" value="No">
                 <label for="no">No</label>
                 <input type="radio" id="maybe" name="visit" value="Maybe">
                 <label for="maybe">Maybe</label>
-            </form>
             <button>SEND</button>
-        </section>
+        </form>
         <footer>
         <p>@ Lone Starfish.</p>
         <p>All Rights Reserved</p>

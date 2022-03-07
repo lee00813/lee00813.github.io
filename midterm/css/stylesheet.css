@@ -7,8 +7,8 @@ h1 {
     color: azure;
 }
 
-.container{
-    width: 500px;
+container{
+    width: 800px;
     margin: 0 auto;
 }
 img{
@@ -19,4 +19,10 @@ img{
 body{
     max-width: 450px;
     margin:0 auto;
+}
+
+#header-background{
+    width:100%;
+    height:100px;
+    background-image: url(images/lone-starfish-wide.jpg);
 }

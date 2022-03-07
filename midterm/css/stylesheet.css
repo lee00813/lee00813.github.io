@@ -23,3 +23,17 @@ form div {
     padding: 50px;
     border: 1px solid wheat;
   }
+
+  .container{
+      width: 500px;
+      margin: 0 auto;
+  }
+  img{
+      width: 200px;
+      float: left;
+  }
+
+  body{
+      max-width: 450px;
+      margin:0 auto;
+  }

@@ -7,17 +7,13 @@ h1 {
     color: azure;
 }
 
-container{
-    width: 800px;
-    margin: 0 auto;
-}
 img{
     width: 200px;
     float: left;
 }
 
 body{
-    max-width: 650px;
+    max-width: 800px;
     margin:0 auto;
 }
 

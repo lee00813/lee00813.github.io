@@ -25,3 +25,5 @@ body{
     background-size: 100%;
     background-image: url(../images/lone-starfish-wide.jpg);
 }
+
+form.solid {border-style: solid;}

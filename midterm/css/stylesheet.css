@@ -36,7 +36,8 @@ body{
 }
 
 .column.middle {
-    width: 50%;
+    width: 850px;
+    height: fit-content;
     background-color: rgb(131, 157, 165);
   }
 

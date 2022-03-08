@@ -6,10 +6,11 @@ body {
 .box{
     background-color: rgb(172, 187, 211);
     position: center;
-    height: 80%;
+    height: 1000px;
     width: 850px;
     left:20%;
     right:20%;
+    opacity:80%;
 }
 
 h1 {

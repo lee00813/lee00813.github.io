@@ -12,13 +12,15 @@ h1 {
 
 .navlinks{
     list-style: none;
+    align-items: center;
+    text-align: center;
 }
 
 .navlinks>li{
     display: inline-block;
     background-color:rgb(196, 219, 219);
     padding: 5px;
-    width: 200px;
+    width: 220px;
     border:1px gray;
 }
 

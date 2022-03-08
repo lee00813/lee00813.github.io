@@ -33,6 +33,11 @@ body{
     margin:0 auto;
 }
 
+.column.middle {
+    width: 50%;
+    background-color: rgb(131, 157, 165);
+  }
+
 #header-background{
     width: 850px;
     height: 300px;

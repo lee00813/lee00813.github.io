@@ -37,12 +37,13 @@ footer{
 }
 
 div>input{
-    width: 80%;
+    width: 100%;
+    padding: 25px 50px;
   }
 
 input[type=text][id=note]{
-    width: 80%;
-    padding: 12px 20px;
+    width: 100%;
+    padding: 25px 50px;
     margin: 8px 0;
     box-sizing: border-box;
 }

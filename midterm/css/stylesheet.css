@@ -11,9 +11,12 @@ h1 {
 }
 
 .navlinks{
-    display: inline-block;
     list-style: none;
-    color:#0088a9;
+}
+
+.navlinks>li{
+    display: inline-block;
+    color:rgb(196, 219, 219);
     padding: 10px 25px;
 }
 
@@ -37,7 +40,7 @@ body{
 
 form{
     border-style: solid;
-    padding: 20px;
+    padding: 8px;
 }
 
 footer{
@@ -46,17 +49,16 @@ footer{
 
 div>input{
     width: 100%;
-    margin: 10px 0;
     box-sizing: border-box;
   }
 
 input[type=text][id=note]{
     width: 100%;
     padding: 15px 30px;
-    margin: 10px 0;
+    margin: 8px 0;
     box-sizing: border-box;
 }
 
 button{
-    margin:20px
+    margin:10px
 }

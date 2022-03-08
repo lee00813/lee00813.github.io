@@ -10,6 +10,13 @@ h1 {
     padding-bottom: 100px;
 }
 
+.navlinks{
+    display: inline-block;
+    list-style: none;
+    color:#0088a9;
+    padding: 10px 25px;
+}
+
 img{
     width: 200px;
     float: left;

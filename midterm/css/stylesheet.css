@@ -6,7 +6,6 @@ body {
 h1 {
     color: azure;
     text-align: center;
-    margin-top: 2em;
     margin-bottom: 2em;
 }
 
@@ -21,7 +20,10 @@ body{
 }
 
 #header-background{
-    width: 850px;
-    height: 300px;
+    width:100%;        
+    margin-left:auto;
+    margin-right:auto;
+    background-position:center;
+    background-size: 100%;
     background-image: url(../images/lone-starfish-wide.jpg);
 }

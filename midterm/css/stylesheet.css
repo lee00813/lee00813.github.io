@@ -30,6 +30,7 @@ body{
 
 form{
     border-style: solid;
+    padding: 20px;
 }
 
 footer{
@@ -37,13 +38,13 @@ footer{
 }
 
 div>input{
-    width: 90%;
+    width: 100%;
     margin: 10px 0;
     box-sizing: border-box;
   }
 
 input[type=text][id=note]{
-    width: 90%;
+    width: 100%;
     padding: 15px 30px;
     margin: 10px 0;
     box-sizing: border-box;

@@ -1,5 +1,6 @@
 body {
-    background-color: #aad4cf;
+    background-color: #aad4cf, #6fb2bb;
+    background-position: center, center bottom;
     font-family: Arial;
 }
 

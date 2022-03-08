@@ -26,4 +26,11 @@ body{
     background-image: url(../images/lone-starfish-wide.jpg);
 }
 
-form.solid {border-style: solid;}
+form.solid {
+    border-style: solid;
+}
+
+footer{
+    text-align: right;
+}
+

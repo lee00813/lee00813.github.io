@@ -16,8 +16,10 @@ h1 {
 
 .navlinks>li{
     display: inline-block;
-    color:rgb(196, 219, 219);
+    background-color:rgb(196, 219, 219);
     padding: 10px 25px;
+    align-items: center;
+    border:1px gray;
 }
 
 img{
@@ -60,5 +62,5 @@ input[type=text][id=note]{
 }
 
 button{
-    margin:10px
+    margin:8px
 }

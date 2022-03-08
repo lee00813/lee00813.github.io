@@ -1,6 +1,7 @@
 body {
-    background-color: #aad4cf, #6fb2bb;
-    background-position: center, center bottom;
+    background-color: #aad4cf, #dde9eb;
+    background-position: center;
+    background-size: cover, 850px;
     font-family: Arial;
 }
 

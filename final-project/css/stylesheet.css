@@ -1,3 +1,5 @@
+/* ============= Styles ============= */
+
 body {
     background: #ffffff;
     font-family: 'Open Sans', sans-serif;
@@ -12,7 +14,12 @@ h1 {
     letter-spacing: -1px;
 }
 
-/* FOOTER */
+/* ============= Header ============= */
+.navbar {
+    background-color: black;
+}
+
+/* ============= Footer ============= */
 
 footer {
     padding-top: 16px;

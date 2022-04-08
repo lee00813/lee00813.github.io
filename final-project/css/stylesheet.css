@@ -36,21 +36,21 @@ header nav ul li a {
     padding-bottom: 20px;
 }
 
-.click a {
-   background: #c78c06;
-   color: #222;
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
-.menu {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
+.click a {
+   background: #c78c06;
+   colour: #222;
+}
 
 
 header form {
     background-color: #222;
-    padding: 2px; margin: 0;
+    padding: 10px; margin: 0;
     display: flex;
 }
 
@@ -64,11 +64,19 @@ header form input {
 
 header form button {
     background-color: #222;
-    border: 2px solid #c78c06;
+    border: 1px solid #c78c06;
     color:  #c78c06;
-    height: 43px; width: 43px;
+    height: 41px; width: 41px;
 }
 
+/* ============= Intro ============= */
+
+.introduction {
+    background-image: url('../images/main-banner.jpg');
+    background-size: cover;
+    background-position: center center;
+    padding: 68px 0;
+}
 
 /* ============= Footer ============= */
 

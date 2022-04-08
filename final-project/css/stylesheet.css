@@ -41,6 +41,12 @@ header nav ul li a {
    color: #222;
 }
 
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
 
 header form {
     padding: 0; margin: 0;

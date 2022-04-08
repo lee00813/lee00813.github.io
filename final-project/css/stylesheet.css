@@ -97,6 +97,20 @@ header form button {
     padding: 18px;
   }
 
+  /* ============= Service ============= */
+.service .container {
+    background-color: #ffe6ac;
+    padding: 18px;
+  }
+  
+  .service .container button {
+    padding: 35px;
+    border: none;
+    background: #222;
+    font-size: 20px;
+    color: white;
+  }
+
 /* ============= Footer ============= */
 
 footer {

@@ -75,7 +75,20 @@ header form button {
     background-image: url('../images/main-banner.jpg');
     background-size: cover;
     background-position: center center;
-    padding: 68px 0;
+    padding: 70px 0;
+}
+  
+.introduction .container {
+    padding: 50px 20px 20px 20px;
+    background: rgb(160, 157, 157);
+    color: white;
+}
+
+.introduction .container button {
+  padding: 30px;
+  border: none;
+  background: #c78c06;
+  font-size: 20px;
 }
 
 /* ============= Footer ============= */

@@ -192,17 +192,23 @@ header form button {
     background-size: cover;
     background-position: center center;
     padding: 20px;
-    color: white;
+  color: white;
 }
 
 .vision .box button {
   padding: 35px;
   border: none;
-  background: #222;
+  background-color: #222;
   font-size: 20px;
   color: white;
   border: 2px solid #c78c06;
   opacity: 0.8;
+}
+
+/* ============= Team ============= */
+.team .container {
+  background-color: #ffe6ac;
+  padding: 18px;
 }
 
 
@@ -230,11 +236,14 @@ form button {
 
 
 /* ============= Hours ============= */
+.hour {
+  margin: 20px;
+}
+
 table, td, th {
   border: 1px solid;
-  padding: 0 5px; margin: 0;
+  padding: 0 5px; margin: 0px;
   line-height: 50px;
-  margin: 5px;
 }
 
 th {

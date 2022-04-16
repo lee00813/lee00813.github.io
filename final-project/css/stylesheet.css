@@ -226,21 +226,25 @@ header form button {
 }
 
 /* ============= Contact ============= */
-form {
-  margin: 5px;
+.contact {
+  margin: 20px;
 }
 
-form input {
+.contact form input,
+.contact form textarea {
   width: 100%;
-  padding: 14px;
+  padding: 4px;
   box-sizing: border-box;
 }
 
-form button {
+.contact form textarea {
+  line-height: 3;
+}
+
+.contact form button {
   background-color: #222;
   color: #c78c06;
   padding: 5px 8px;
-  margin: 5px;
   font-size: 22px;
   border: none;
 }
@@ -248,10 +252,8 @@ form button {
 
 
 
+
 /* ============= Hours ============= */
-.hour {
-  margin: 20px;
-}
 
 table, td, th {
   border: 1px solid;

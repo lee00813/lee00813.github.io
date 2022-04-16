@@ -317,10 +317,6 @@ footer {
 }
 
 /* ============= Team ============= */
-.team .container .text {
-  padding-bottom: 30px;
-} 
-
 .team .container {
 display:grid;
 grid-template-columns: 1fr 1fr;

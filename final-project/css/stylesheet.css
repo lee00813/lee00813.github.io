@@ -305,6 +305,14 @@ footer {
         width: 80%;
         font-size: 20px;
      }
+
+  /* ============= About ============= */
+   .about {  
+    padding: 30px 50px 0px 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
    
   /* ============= Service ============= */
   .service {

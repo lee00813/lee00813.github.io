@@ -306,7 +306,10 @@ footer {
      }
    
   /* ============= Service ============= */
- 
+  .service {
+    padding: 30px 50px 0px 50px;
+  }
+
   .service .container {
         padding: 0;
         display: grid;

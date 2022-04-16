@@ -217,7 +217,12 @@ header form button {
 /* ============= Team ============= */
 .team .text {
   background-color: #ffe6ac;
-  padding: 18px;
+  padding: 15px;
+}
+
+.team .container img {
+  width: 100%;
+  padding: 0;
 }
 
 /* ============= Contact ============= */

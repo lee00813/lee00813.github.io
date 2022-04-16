@@ -315,3 +315,29 @@ footer {
      width: 100%;
  }
 }
+
+.team {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    “j d”
+    “b r”
+
+}
+
+.team .img:nth-child(1){
+  grid-area: j;
+}
+
+.team .img:nth-child(2){
+  grid-area: r;
+}
+
+.team .text:nth-child(1){
+  grid-area: d;
+}
+
+.team .text:nth-child(1){
+  grid-area: b;
+}

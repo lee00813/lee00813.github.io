@@ -344,10 +344,13 @@ footer {
   }
    
   /* ============= Team ============= */
+  .team {   
+    padding: 30px 50px 0px 50px;
+   }
+
  .team .container {
    display:grid;
    grid-template-columns: 1fr 1fr;
-   grid-template-rows: 1fr 1fr;
    grid-template-areas:
      “j d”
      “b r”;

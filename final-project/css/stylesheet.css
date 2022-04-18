@@ -312,11 +312,11 @@ footer {
   align-items: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
 }
   
   .about img {
     grid-column: 1;
-    margin-right: 10px;
   }
 
   .about .grid-item {

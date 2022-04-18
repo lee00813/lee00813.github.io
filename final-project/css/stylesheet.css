@@ -180,6 +180,7 @@ header form button {
 .service .grid-item {
   background-color: #ffe6ac;
   padding: 18px;
+  margin: 10px;
 }
 
 .service .grid-item button {

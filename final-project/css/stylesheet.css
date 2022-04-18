@@ -307,12 +307,21 @@ footer {
      }
 
 /* ============= About ============= */
-.about .container .grid-item {  
+.about .container {  
   padding: 30px 50px 0px 50px;
+  align-items: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
 }
+  
+  .about img {
+    grid-column: 1;
+  }
+
+  .about .grid-item {
+      grid-column: 2;
+  }
+  
    
   /* ============= Service ============= */
   .service {
